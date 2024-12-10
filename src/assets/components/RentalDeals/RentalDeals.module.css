@@ -1,0 +1,31 @@
+.input {
+  &::placeholder {
+    color: rgba(149, 149, 149, 1);
+  }
+}
+.searchBtn {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 5px;
+}
+.title {
+  background-color: rgba(21, 114, 211, 0.1);
+  width: fit-content;
+  font-size: 14px;
+  color: rgba(21, 114, 211, 1);
+}
+.titleP {
+  color: rgba(51, 51, 51, 1);
+  line-height: clamp(2rem, 3vw, 49px);
+  font-size: clamp(1.5625rem, 1.2868rem + 1.1607vw, 2.375rem);
+}
+.allBtn {
+  width: fit-content;
+  border: 1px solid rgba(224, 224, 224, 1) !important;
+  a {
+    color: rgba(78, 78, 78, 1);
+    font-size: 14px;
+    text-decoration: none;
+  }
+}

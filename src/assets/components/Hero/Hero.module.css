@@ -1,0 +1,31 @@
+.hero {
+  background-image: url(../../imges/landing-page/Frame.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  overflow-x: clip;
+}
+.title {
+  font-size: clamp(1.875rem, 1.4933rem + 1.6071vw, 3rem);
+  font-weight: 600;
+}
+.car {
+  position: absolute;
+  right: 0;
+
+  width: 50%;
+  animation: carAnimation 2s ease-in-out;
+}
+@keyframes carAnimation {
+  0% {
+    right: -50%;
+
+    width: 10%;
+  }
+  100% {
+    right: 0;
+
+    width: 50%;
+  }
+}

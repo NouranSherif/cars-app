@@ -1,0 +1,33 @@
+.testimonials {
+  background-color: #f7fbff;
+  background-image: url(../../imges/landing-page/sec-6/2.svg),
+    url(../../imges/landing-page/sec-6/1.svg);
+  background-position: calc(100% - 10rem) 0, 12rem 5rem;
+  background-repeat: no-repeat, no-repeat;
+}
+.title {
+  background-color: rgba(21, 114, 211, 0.1);
+  width: fit-content;
+  font-size: 14px;
+  color: rgba(21, 114, 211, 1);
+}
+.testimonialsP {
+  color: rgba(51, 51, 51, 1);
+}
+.rate {
+  font-size: clamp(2rem, 1.3214rem + 2.8571vw, 4rem);
+  font-weight: 500;
+  color: rgba(56, 56, 56, 1);
+}
+.testimonialsName {
+  color: rgba(37, 37, 37, 1);
+  font-weight: 500;
+  font-size: 24px;
+}
+.place {
+  color: rgba(131, 131, 131, 1);
+  font-size: 14px;
+}
+.testimonialCard {
+  height: 27.5rem;
+}

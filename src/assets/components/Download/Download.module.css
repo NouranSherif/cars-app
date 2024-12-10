@@ -1,0 +1,33 @@
+.downloadSec {
+  background-image: url(../../imges/landing-page/sec-7/Vector.png);
+  background-position: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.downloadH2 {
+  font-size: clamp(1.875rem, 1.4509rem + 1.7857vw, 3.125rem);
+}
+.downloadP {
+  color: #3e3e3e;
+}
+
+.input {
+  background-color: #cedcff;
+  border: none;
+  border-radius: 3.5rem;
+  padding: 0.7rem 1.5rem;
+  outline: none;
+  &::placeholder {
+    color: #292929;
+  }
+  &:focus-visible {
+    outline: 2px solid #051c34;
+  }
+}
+.formBtn {
+  width: fit-content;
+  padding: 0.5rem 2.5rem;
+  border-radius: 8px;
+}

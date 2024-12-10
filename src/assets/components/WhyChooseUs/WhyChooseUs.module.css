@@ -1,0 +1,23 @@
+.WhyChooseUsSec {
+  background-color: white;
+  background-image: url(../../imges/landing-page/sec-5/Vector.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
+}
+.title {
+  background-color: rgba(21, 114, 211, 0.1);
+  width: fit-content;
+  font-size: 14px;
+  color: rgba(21, 114, 211, 1);
+}
+.titleP {
+  color: rgba(51, 51, 51, 1);
+  line-height: clamp(2rem, 3vw, 49px);
+  font-size: clamp(1.5625rem, 1.2868rem + 1.1607vw, 2.375rem);
+}
+
+.featureP {
+  color: rgba(109, 109, 109, 1);
+  font-weight: 400;
+}

@@ -1,0 +1,24 @@
+.title {
+  background-color: rgba(21, 114, 211, 0.1);
+  width: fit-content;
+  font-size: 14px;
+  color: rgba(21, 114, 211, 1);
+}
+.titleP {
+  color: rgba(51, 51, 51, 1);
+  line-height: clamp(2rem, 3vw, 49px);
+  font-size: clamp(1.5625rem, 1.2868rem + 1.1607vw, 2.375rem);
+}
+.howItWorkP {
+  color: rgba(109, 109, 109, 1);
+  font-weight: 400;
+  font-size: 14px;
+}
+.step {
+  max-width: 300px;
+}
+.brand {
+  width: 150px;
+  height: 50px;
+  padding: 0;
+}
