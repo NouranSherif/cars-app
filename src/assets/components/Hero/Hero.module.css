@@ -11,21 +11,22 @@
   font-weight: 600;
 }
 .car {
-  position: absolute;
-  right: 0;
+  /* position: relative; */
+  overflow: hidden;
 
-  width: 50%;
-  animation: carAnimation 2s ease-in-out;
+  img {
+    /* position: absolute; */
+    /* right: 0;
+    top: 0; */
+    z-index: 3;
+    animation: carAnimation 2s;
+  }
 }
 @keyframes carAnimation {
   0% {
-    right: -50%;
-
-    width: 10%;
+    transform: translate(100%, -10%);
   }
   100% {
-    right: 0;
-
-    width: 50%;
+    transform: translate(0, 0);
   }
 }

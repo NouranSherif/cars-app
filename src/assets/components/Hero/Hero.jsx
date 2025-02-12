@@ -7,10 +7,10 @@ import car from '../../imges/landing-page/carb.png';
 export default function Hero() {
   return (
     <>
-      <section className={`${styles.hero} py-5  `}>
-        <div className="d-flex gap-5 ms-3 py-5 my-5">
-          <div className="mx-5 px-5 w-50">
-            <h1 className={`${styles.title} pe-5`}>
+      <section className={`${styles.hero} py-5   `}>
+        <div className="row   ms-3 pt-5 gap-5 gap-md-0 mt-sm-5  justify-content-between ">
+          <div className="me-5 px-5 col-12 col-md-5  ">
+            <h1 className={`${styles.title} `}>
               Find, book and <br /> rent a car{' '}
               <span className="text-primary">Easily</span>
             </h1>
@@ -18,7 +18,7 @@ export default function Hero() {
               Get a car wherever and whenever you need it with your IOS and
               Android device.
             </p>
-            <div className="d-flex flex-wrap gap-3 mt-4 pe-5 ">
+            <div className="d-flex flex-wrap gap-3 mt-4 ">
               <a href="">
                 {' '}
                 <img src={googlePlay} alt=" Google Play logo" />
@@ -29,7 +29,8 @@ export default function Hero() {
               </a>
             </div>
           </div>
-          <div className={`${styles.car} ms-5`}>
+
+          <div className={`${styles.car} p-0 col-12 col-md-6 `}>
             <img src={car} className="w-100" alt="a blue car" />
           </div>
         </div>

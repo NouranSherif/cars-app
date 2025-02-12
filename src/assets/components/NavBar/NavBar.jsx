@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 export default function NavBar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg container py-4 position-absolute start-0 end-0 top-0 bg-transparent z-3">
+      <nav className="navbar navbar-expand-lg container py-4 position-absolute start-0 end-0 top-0 bg-white z-3">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img src={logo} alt="logo" />
@@ -22,7 +22,10 @@ export default function NavBar() {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse  navbar-collapse  " id="navbarNav">
+          <div
+            className={`collapse  navbar-collapse ${styles.navbarCollapse}   z-3 p-3  `}
+            id="navbarNav"
+          >
             <ul className="navbar-nav gap-2 ms-auto ">
               <li className="nav-item">
                 <a className={`nav-link active `} aria-current="page" href="#">
